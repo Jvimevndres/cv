@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV - Jaime Andrés Herrera Barraza</title>
+    <meta name="description" content="Currículum de Jaime Andrés Herrera Barraza, Ingeniería Informática." />
+    <meta name="theme-color" content="#0f172a" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media print {
+        .no-print { display: none !important; }
+        a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }
+        body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased">
+    <!-- ===== Header / Encabezado ===== -->
+    <header role="banner" class="bg-slate-900 text-white">
+      <div class="mx-auto max-w-5xl px-4 py-6 sm:py-8">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div class="flex items-center gap-4">
+            <!-- Foto (opcional) -->
+            <img
+              src="https://via.placeholder.com/128x128.png?text=Foto"
+              alt="Foto de perfil de Jaime Andrés Herrera Barraza"
+              class="h-24 w-24 rounded-2xl object-cover ring-2 ring-white/20"
+            />
+            <div>
+              <!-- Nombre -->
+              <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight">Jaime Andrés Herrera Barraza</h1>
+              <!-- Título profesional -->
+              <p class="mt-1 text-slate-300">Ingeniero en Informática • Analista Programador • Desarrollador Full-Stack (en formación)</p>
+              <!-- Ubicación + contacto breve -->
+              <p class="mt-1 text-slate-300">
+                Renca, Chile • <a href="mailto:Jaimejym1999@gmail.com" class="underline decoration-slate-400 hover:decoration-white">Jaimejym1999@gmail.com</a> •
+                <a href="tel:+56988265568" class="underline decoration-slate-400 hover:decoration-white">+56 9 8826 5568</a>
+              </p>
+            </div>
+          </div>
+          <!-- Botón Descargar PDF -->
+          <div class="no-print">
+            <button
+              type="button"
+              onclick="window.print()"
+              class="inline-flex items-center gap-2 rounded-xl bg-white/10 px-4 py-2 text-white shadow ring-1 ring-white/20 hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              aria-label="Descargar o guardar el CV como PDF"
+            >
+              <!-- ícono simple -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M7 21h10a2 2 0 0 0 2-2v-6h-2v6H7V7h6V5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2Zm9-11V5h-2v5h-3l4 4 4-4h-3Z"/>
+              </svg>
+              Guardar como PDF
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== Main ===== -->
+    <main id="contenido" role="main" class="mx-auto max-w-5xl px-4 py-8 sm:py-10">
+      <!-- ===== Resumen Profesional ===== -->
+      <section aria-labelledby="resumen-title" class="mb-10">
+        <h2 id="resumen-title" class="text-xl font-bold text-slate-800">Resumen</h2>
+        <p class="mt-3 leading-relaxed text-slate-700">
+          Ingeniero en Informática (INACAP) y Analista Programador, con enfoque <span class="font-semibold">mobile-first</span> y buenas prácticas.
+          Experiencia combinada en <span class="font-semibold">desarrollo web</span> (Django, React, Node.js, Firebase), <span class="font-semibold">bases de datos</span> (MySQL, MongoDB)
+          y <span class="font-semibold">análisis de datos</span> (Power BI, Pentaho, Python, R). Trayectoria en <span class="font-semibold">logística, administración y atención al cliente</span>:
+          Operario Administrativo y Encargado de Recepción en Loginsa, y administración de una botillería propia (inventarios, proveedores, precios).
+          Busco aportar como <span class="font-semibold">Desarrollador Full-Stack</span> o <span class="font-semibold">Analista de Sistemas</span>.
+        </p>
+      </section>
+
+      <!-- ===== Educación ===== -->
+      <section aria-labelledby="educacion-title" class="mb-10">
+        <h2 id="educacion-title" class="text-xl font-bold text-slate-800">Educación</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2">
+          <!-- Item educación -->
+          <article class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm" role="article">
+            <h3 class="font-semibold">Ingeniería en Informática</h3>
+            <p class="text-sm text-slate-600">INACAP Renca • Egresado</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm" role="article">
+            <h3 class="font-semibold">Analista Programador</h3>
+            <p class="text-sm text-slate-600">INACAP • Titulado</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm" role="article">
+            <h3 class="font-semibold">Desarrollo Web Completo</h3>
+            <p class="text-sm text-slate-600">Udemy • En curso</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm" role="article">
+            <h3 class="font-semibold">Telecomunicaciones</h3>
+            <p class="text-sm text-slate-600">Instituto Benjamín Dávila Larraín</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== Experiencia ===== -->
+      <section aria-labelledby="experiencia-title" class="mb-10">
+        <h2 id="experiencia-title" class="text-xl font-bold text-slate-800">Experiencia</h2>
+        <div class="mt-4 space-y-4">
+          <!-- Loginsa -->
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" role="article">
+            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+              <h3 class="text-lg font-semibold">Loginsa — Operario Administrativo &amp; Encargado de Recepción</h3>
+              <span class="mt-1 text-sm text-slate-600 sm:mt-0">Mar 2023 – Jun 2023</span>
+            </div>
+            <ul class="mt-2 list-disc pl-5 text-slate-700">
+              <li>Coordinación del <span class="font-semibold">área de recepción</span>, documentación y registro en sistema.</li>
+              <li>Control de inventario: ingreso, verificación y trazabilidad de productos.</li>
+              <li>Comunicación con proveedores y equipos de distribución; apoyo administrativo.</li>
+            </ul>
+            <p class="mt-2 text-sm text-slate-600">Claves: administración, logística, trabajo en equipo, orientación al detalle.</p>
+          </article>
+
+          <!-- Botillería -->
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" role="article">
+            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+              <h3 class="text-lg font-semibold">Botillería (Emprendimiento) — Administrador &amp; Atención al Cliente</h3>
+              <span class="mt-1 text-sm text-slate-600 sm:mt-0">Jul 2023 – Actualidad</span>
+            </div>
+            <ul class="mt-2 list-disc pl-5 text-slate-700">
+              <li>Gestión de <span class="font-semibold">stock, proveedores y precios</span>; control de compras y márgenes.</li>
+              <li>Registro y análisis de ventas (Excel / Power BI) para decisiones de surtido.</li>
+              <li>Atención al cliente y resolución de incidencias en caja.</li>
+            </ul>
+            <p class="mt-2 text-sm text-slate-600">Claves: inventario, administración, servicio al cliente, análisis básico de datos.</p>
+          </article>
+
+          <!-- Igestec -->
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" role="article">
+            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+              <h3 class="text-lg font-semibold">Igestec — Bodeguero</h3>
+              <span class="mt-1 text-sm text-slate-600 sm:mt-0">May 2020 – Jul 2020</span>
+            </div>
+            <ul class="mt-2 list-disc pl-5 text-slate-700">
+              <li>Organización de bodega y registro de productos.</li>
+              <li>Apoyo en orden, limpieza y control básico de stock.</li>
+            </ul>
+          </article>
+
+          <!-- Carnes Mónica (opcional, solo habilidades clave) -->
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" role="article" aria-label="Carnes Mónica habilidades clave">
+            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+              <h3 class="text-lg font-semibold">Carnes Mónica — (Habilidades Clave)</h3>
+              <span class="mt-1 text-sm text-slate-600 sm:mt-0">Jul 2020 – Ene 2021</span>
+            </div>
+            <p class="mt-2 text-slate-700">Se destacan: <span class="font-semibold">atención al cliente</span>, administración de caja, orden de facturas y control de ventas en Excel.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== Habilidades ===== -->
+      <section aria-labelledby="habilidades-title" class="mb-10">
+        <h2 id="habilidades-title" class="text-xl font-bold text-slate-800">Habilidades</h2>
+
+        <!-- Hard skills -->
+        <div class="mt-4">
+          <h3 class="font-semibold text-slate-700">Hard Skills</h3>
+          <ul class="mt-3 flex flex-wrap gap-2" aria-label="Lista de habilidades técnicas">
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">HTML</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">CSS</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">JavaScript</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">Python</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">PHP</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">SQL</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">Django</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">React</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">Node.js</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">Firebase</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">MongoDB</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">Power BI</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">Pentaho</li>
+            <li class="rounded-full bg-slate-200 px-3 py-1 text-sm">Git/GitHub</li>
+          </ul>
+        </div>
+
+        <!-- Soft skills -->
+        <div class="mt-6">
+          <h3 class="font-semibold text-slate-700">Soft Skills</h3>
+          <ul class="mt-3 grid gap-2 sm:grid-cols-2">
+            <li class="rounded-xl bg-white p-3 shadow-sm ring-1 ring-slate-200">Trabajo en equipo y comunicación</li>
+            <li class="rounded-xl bg-white p-3 shadow-sm ring-1 ring-slate-200">Orientación al detalle</li>
+            <li class="rounded-xl bg-white p-3 shadow-sm ring-1 ring-slate-200">Resolución de problemas</li>
+            <li class="rounded-xl bg-white p-3 shadow-sm ring-1 ring-slate-200">Autonomía y aprendizaje continuo</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===== Proyectos ===== -->
+      <section aria-labelledby="proyectos-title" class="mb-10">
+        <h2 id="proyectos-title" class="text-xl font-bold text-slate-800">Proyectos</h2>
+        <div class="mt-4 grid gap-4 md:grid-cols-2">
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" role="article">
+            <h3 class="font-semibold">Vitrinex (Proyecto de Título)</h3>
+            <p class="mt-1 text-slate-700">Plataforma para emprendedores chilenos. Stack: React, Node.js, MongoDB, JWT.</p>
+            <a class="mt-2 inline-block text-sm font-medium text-blue-700 underline hover:text-blue-900"
+               href="https://github.com/" target="_blank" rel="noopener">Repositorio / Demo</a>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" role="article">
+            <h3 class="font-semibold">MediApp (Reservas médicas)</h3>
+            <p class="mt-1 text-slate-700">Sistema con Django + Firebase (Auth/Firestore), login y gestión de citas.</p>
+            <a class="mt-2 inline-block text-sm font-medium text-blue-700 underline hover:text-blue-900"
+               href="https://github.com/" target="_blank" rel="noopener">Repositorio / Demo</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== Contacto ===== -->
+      <section aria-labelledby="contacto-title" class="mb-10">
+        <h2 id="contacto-title" class="text-xl font-bold text-slate-800">Contacto</h2>
+        <ul class="mt-3 space-y-1">
+          <li>
+            <span class="font-semibold">Email:</span>
+            <a class="text-blue-700 underline hover:text-blue-900" href="mailto:Jaimejym1999@gmail.com">Jaimejym1999@gmail.com</a>
+          </li>
+          <li>
+            <span class="font-semibold">LinkedIn:</span>
+            <a class="text-blue-700 underline hover:text-blue-900" href="https://www.linkedin.com/in/tu-usuario" target="_blank" rel="noopener">linkedin.com/in/tu-usuario</a>
+          </li>
+          <li><span class="font-semibold">Ubicación:</span> Renca, Chile</li>
+        </ul>
+
+        <!-- Instrucción explícita para PDF -->
+        <p class="no-print mt-4 text-sm text-slate-600">
+          Para <span class="font-semibold">guardar como PDF</span>: haz clic en <em>Guardar como PDF</em> (arriba) o abre el menú del navegador → <strong>Imprimir</strong> → Destino: <strong>Guardar como PDF</strong> → <strong>Guardar</strong>.
+        </p>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer role="contentinfo" class="border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-5xl px-4 py-6 text-sm text-slate-600">
+        © <span id="year"></span> Jaime Andrés Herrera Barraza — CV.
+      </div>
+    </footer>
+
+    <!-- Accesibilidad básica: foco visible para enlaces con teclado -->
+    <script>
+      document.querySelectorAll('a, button').forEach(el => {
+        el.classList.add('focus:outline-none','focus-visible:ring-2','focus-visible:ring-blue-600','focus-visible:ring-offset-2');
+      });
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- ===== Notas de personalización (3 líneas) 
+    <section aria-label="Cómo personalizar" class="mx-auto max-w-5xl px-4 pb-10 text-sm text-slate-600">
+      <p class="mt-2">• Colores: cambia clases como <code class="bg-slate-100 px-1 rounded">bg-slate-900</code>, <code class="bg-slate-100 px-1 rounded">text-blue-700</code> por tu paleta (ej. <code>bg-indigo-900</code>/<code>text-emerald-700</code>).</p>
+      <p class="mt-1">• Fuentes: añade en el <em>head</em> un Google Font y aplica clases Tailwind <code class="bg-slate-100 px-1 rounded">font-sans</code>/<code>font-serif</code> al <code>&lt;body&gt;</code> o a títulos.</p>
+      <p class="mt-1">• Foto: reemplaza la URL del <code>&lt;img src&gt;</code> por tu imagen (ideal 256×256); mantén el <code>alt</code> descriptivo.</p>
+    </section>
+    ===== -->
+  </body>
+</html>
